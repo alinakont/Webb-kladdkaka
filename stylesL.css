@@ -1,0 +1,152 @@
+/*datorversion av sidan*/
+@media screen and (min-width: 900px) {
+/*topbaren*/
+    #header {
+        background-color: white;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 88px;
+        transition: top 0.5s; /*gör så att topbaren skrollas bort med hjälp av js*/
+    }
+    .logo {
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    .menu { /*menybutton*/
+        width: 30px;
+        height: 3px;
+        background-color: rgb(53, 40, 40);
+        margin: 7px 0;
+    }
+    /* Dropdown Button */
+    .dropbtn {
+        background-color: white;
+        border: none;
+        cursor: pointer;
+    }
+    
+    /* Dropdown button on hover & focus */
+    .dropbtn:hover, .dropbtn:focus {
+    background-color: rgb(219, 219, 219);
+    }
+    
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+    position: relative;
+    margin-left: 85%;
+    margin-bottom: 20px;
+    display: inline-block;
+    }
+    
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #ddd;}
+    
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    .show {display:block;}
+    
+    .background {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 90px;
+        background-color: rgb(224, 205, 205);
+    }
+    .grid1 {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .titel {
+        grid-column: 1/2;
+        padding: 10px;
+        background-color: white;
+        margin: 30px 20px 0px 20px;
+        border: 2px solid rgb(137, 122, 122);
+    }
+    .bild {
+        grid-column: 2/2;
+        display: inline;
+        width: 95%;
+        border: 2px solid rgb(137, 122, 122);
+        padding: 3px;
+        margin: 10px;
+        align-items: center;
+        margin-top: 30px;
+
+    }
+
+    .grid2 {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: 18px;
+        border-top: 15px solid white;
+    }
+    .ingridienser {
+        grid-column: 1/2;
+        background-color: white;
+        border: 2px solid rgb(137, 122, 122);
+        padding: 15px;
+        margin: 20px;
+    }
+    ul li {
+        padding: 2px;
+    }
+    .flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .instruktioner {
+        grid-column: 2/2;
+        background-color: white;
+        border: 2px solid rgb(137, 122, 122);
+        padding: 15px;
+        margin: 20px;
+    }
+    ol li {
+        padding: 5px;
+    }
+
+    .footer {
+        background-color: rgb(165, 165, 165);
+        display: grid;
+        grid-template-columns: 5fr 1fr;
+        min-height: 80px;
+        border-top: 8px solid white;
+        box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.2);
+    }
+    .end {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 30px;
+    }
+    a:link {
+        color: black;
+        text-decoration: none;
+    }
+    .pgup {
+        margin-top: 15px;
+        margin-right: 10px;
+        text-align: end;
+    }
+}

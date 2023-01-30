@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylesL.css">
+    <link rel="stylesheet" href="./stylesM.css">
+    <link rel="stylesheet" href="./stylesS.css">
+    <script src="./Dropmenu.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header id="header">
+        <img class="logo" src="./img/hot-pot (1).png">
+    <!--navigationbar som man klickar på för att få upp menyn-->
+        <div class="dropdown"> <!--menybutton-->
+            <button onclick="myFunction()" class="dropbtn">
+                <div class="menu"></div>
+                <div class="menu"></div>
+                <div class="menu"></div>
+            </button>
+            <div id="myDropdown" class="dropdown-content"> <!--menyn som poppar upp när man klickar på menybutton-->
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+            <a href="#">LOGIN</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="background">
+
+        <div class="grid1"> <!--(datorversion)första raden av titel och bild-->
+            <div class="titel">
+                <h1>Klassisk Kladdkaka</h1>
+                <p>Recept på en klassisk kladdkaka. En mjuk och kompakt kaka med chokladsmak. Dess kladdiga konsistens är orsaken till dess namn 'kladdkaka'.
+                    Kladdkakan är nära besläktad med brownies.
+                    <br><br>Receptet har varit med länge då det är både gott och enkelt att göra. Allt man behöver är mjöl, ägg, socker, smör och kakao.
+                    Den gräddas inte särskilt länge vilket ger den en kladdig konsistens. Den serveras oftast med vispad grädde eller vanlijglass
+                    vilket ger en perfekt balans med det söta och rika chokladkakan.
+                </p>
+            </div>
+            <img class="bild" src="./img/kladdkaka..jpg">
+        </div>
+
+        <div class="grid2"> <!--(datorversion)andra raden, instruktioner och ingridienser-->
+            <div class="ingridienser">
+                <div class="flex">
+                    <h2>Ingridienser</h2>
+                    <p1 class="portioner"><b><u>ca 8 bitar</u></b></p1>    
+                </div>
+                <ul>
+                    <li>smör till formen</li>
+                    <li>ströbröd till formen</li>
+                    <li>100g smör</li>
+                    <li>2 st ägg</li>
+                    <li>2,5 dl strösocker</li>
+                    <li>3 msk kakao</li>
+                    <li>2 tsk vaniljsocker</li>
+                    <li>1,5 dl vetemjöl</li>
+                    <li>1 krm salt</li>
+                    <p>Till servering</p>
+                    <li>florsocker till garnering</li>
+                    <li>2 dl vispgrädde</li>
+                    <li>färska bär</li>
+                </ul>
+            </div>
+
+            <div class="instruktioner">
+                <h2>Gör så här</h2>
+                <ol>
+                    <li>Sätt ugnen på 200°C.</li>
+                    <li>Smörj och bröa en form med löstagbar kant, ca 24 cm i diameter. Eller spänn fast ett bakplåtspapper i botten.</li>
+                    <li>Smält smöret i en kastrull och låt svalna.</li>
+                    <li>Vispa ihop ägg och socker, men inte pösigt! Så ingen elvisp.</li>
+                    <li>Blanda i kakao, socker, vaniljsocker, mjöl och salt i en bunke.</li>
+                    <li>Tillsätt smöret och sedan även äggen. Rör till en slät smet.</li>
+                    <li>Häll över smeten i formen och grädda i ugnen ca 10-15 min.</li>
+                    <li>Ta ut kakan ich låt svalna.</li>
+                    <li>Sikta florsocker över och servera med vispad grädde och bär.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="footer"> <!--footer med länkar liksom menyn på toppen och länk till början av sidan-->
+            <ul class="end">
+                <a href="#"><mark style="background: white">CONTACT</mark></a>
+                <a href="#"><mark style="background: white">ABOUT</mark></a>
+                <a href="#"><mark style="background: white">SOURCES</mark></a>
+            </ul>
+            <a class="pgup" href="#">Start <larger><b>^</b></larger></a>
+        </div>
+
+    </div>
+</body>
+</html>

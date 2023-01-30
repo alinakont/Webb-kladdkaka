@@ -1,0 +1,124 @@
+@media screen and (max-width: 500px) {
+    #header {
+        background-color: white;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 120px;
+        transition: top 0.5s; /*gör så att topbaren skrollas bort med hjälp av js*/
+    }
+    .logo {
+        margin-top: 10px;
+        margin-left: 15px;
+        width: 9%;
+    }
+    .menu {
+        width: 50px;
+        height: 5px;
+        background-color: rgb(53, 40, 40);
+        margin: 12px 0;
+    }
+    /* Dropdown Button */
+    .dropbtn {
+        background-color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* Dropdown button on hover & focus */
+    .dropbtn:hover, .dropbtn:focus {
+    background-color: rgb(219, 219, 219);
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+    position: relative;
+    margin-left: 80%;
+    margin-bottom: 20px;
+    display: inline-block;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #ddd;}
+
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    .show {display:block;}
+
+    body {
+        background-color: rgb(224, 205, 205);
+    }
+    .background {
+        margin-top: 140px;
+    }
+    .bild {
+        border: 2px solid rgb(137, 122, 122);
+        padding: 5px;
+        margin: 10px;
+        width: 256%;
+    }
+    .titel {
+        background-color: white;
+        margin: 20px;
+        border: 2px solid rgb(137, 122, 122);
+        padding: 25px;
+        width: 240%;
+        font-size: 45px;
+    }
+    .ingridienser {
+        background-color: white;
+        border: 2px solid rgb(137, 122, 122);
+        padding: 25px;
+        margin: 20px;
+        width: 240%;
+        font-size: 50px;
+    }
+    .instruktioner {
+        background-color: white;
+        border: 2px solid rgb(137, 122, 122);
+        padding: 25px;
+        margin: 20px;
+        width: 240%;
+        font-size: 50px;
+    }
+    .footer {
+        background-color: rgb(165, 165, 165);
+        width: 265%;
+        min-height: 150px;
+    }
+    .end {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 30px;
+        font-size: 40px;
+    }
+    a:link {
+        color: black;
+        text-decoration: none;
+        font-size: 35px;
+    }
+    .pgup {
+        margin-top: 15px;
+        margin-right: 10px;
+        text-align: end;
+    }
+}
